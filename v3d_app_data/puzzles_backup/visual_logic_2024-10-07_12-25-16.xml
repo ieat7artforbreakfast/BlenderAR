@@ -1,0 +1,143 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="19.999999999999886" scrolly="19.99999999999983" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="initSettings" id="Y/d|!v.ed8eeiTijgS*r" x="-10" y="-10">
+      <field name="LOAD_COMP_ASSETS">TRUE</field>
+      <field name="FULLSCREEN">FALSE</field>
+      <field name="BKG_TRANSPARENCY">TRUE</field>
+      <field name="PRESERVE_DRAW_BUF">FALSE</field>
+      <field name="FADE_ANNOTATIONS">TRUE</field>
+    </block>
+  </tab>
+  <tab name="interface" type="CommonTab" active="true" scrollx="19.99999999999983" scrolly="2.842170943040401e-14" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="createCSSRule" id="Z*/kIJ^%JGdalYT^@VL=" x="50" y="170">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+      <field name="PARENT">FALSE</field>
+      <value name="CSS_RULE">
+        <shadow type="text" id="dedCTMGIloTsKavMAtqz">
+          <field name="TEXT">enter_AR_button</field>
+        </shadow>
+      </value>
+      <value name="CSS_RULE_CONT">
+        <shadow type="cssStyleList" id="K%YM(6lZy(`Mf$Ma+=0I">
+          <mutation xmlns="http://www.w3.org/1999/xhtml">
+            <prop name="position" shadowvalue="absolute"></prop>
+            <prop name="display" shadowvalue="block"></prop>
+            <prop name="z-index" shadowvalue="1"></prop>
+            <prop name="background-color" shadowvalue="rgba(255,255,255, 0)"></prop>
+            <prop name="width" shadowvalue="200px"></prop>
+            <prop name="height" shadowvalue="auto"></prop>
+            <prop name="bottom" shadowvalue="auto"></prop>
+            <prop name="left" shadowvalue="auto"></prop>
+            <prop name="margin-left" shadowvalue="auto"></prop>
+            <prop name="background-size" shadowvalue="auto"></prop>
+          </mutation>
+          <value name="PROP0">
+            <shadow type="positionDropdown" id="eit4:/2t3}wl,].68Jtt">
+              <field name="TEXT">absolute</field>
+            </shadow>
+          </value>
+          <value name="PROP1">
+            <shadow type="displayDropdown" id="^-|SgRtFyD=H!Ae0/,s7">
+              <field name="TEXT">block</field>
+            </shadow>
+          </value>
+          <value name="PROP2">
+            <shadow type="text" id="4QJv:S3TI1_s:lh/ewJ_">
+              <field name="TEXT">1</field>
+            </shadow>
+          </value>
+          <value name="PROP3">
+            <shadow type="text" id="lP/^=R8O:yZCQZl=iFX~">
+              <field name="TEXT">rgba(255,255,255, 0)</field>
+            </shadow>
+          </value>
+          <value name="PROP4">
+            <shadow type="text" id="I#PJMvp)hXo!C{EmzGV=">
+              <field name="TEXT">200px</field>
+            </shadow>
+          </value>
+          <value name="PROP5">
+            <shadow type="text" id="~:Ys|w;.298]5[(!7Nv{">
+              <field name="TEXT">50px</field>
+            </shadow>
+          </value>
+          <value name="PROP6">
+            <shadow type="text" id="RVN:Z8P`od}=9pd,^zS*">
+              <field name="TEXT">20px</field>
+            </shadow>
+          </value>
+          <value name="PROP7">
+            <shadow type="text" id="x-xrwCCu|Tv|R8QA+u]t">
+              <field name="TEXT">50%</field>
+            </shadow>
+          </value>
+          <value name="PROP8">
+            <shadow type="text" id="-D$6U#WSez~fq6;-2~Us">
+              <field name="TEXT">-100px</field>
+            </shadow>
+          </value>
+          <value name="PROP9">
+            <shadow type="text" id="%GR;%;kWX7aAD6[{O4lf">
+              <field name="TEXT">100%</field>
+            </shadow>
+          </value>
+        </shadow>
+      </value>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="addHTMLElement" id=",7I;^*rgZw_``+U5u#HY" x="30" y="430">
+      <field name="ELEMENT">a</field>
+      <field name="MODE">TO</field>
+      <field name="PARENT">FALSE</field>
+      <value name="ID">
+        <shadow type="text" id="!8?W5iE00_5yqm(-l8Y1">
+          <field name="TEXT">enter_AR_button</field>
+        </shadow>
+      </value>
+      <value name="TARGET_ID">
+        <shadow type="DOMObjectSelector" id="2)Tuy-.qT*)o*dr)5SY+">
+          <field name="DOM_OBJECT">CONTAINER</field>
+        </shadow>
+      </value>
+      <next>
+        <block type="addHTMLElement" id=")?yq/C-(ZX;,CXF_3FuB">
+          <field name="ELEMENT">img</field>
+          <field name="MODE">TO</field>
+          <field name="PARENT">FALSE</field>
+          <value name="ID">
+            <shadow type="text" id="Mr%eSmpu;XSB9}41CM*L">
+              <field name="TEXT">enter_AR_img</field>
+            </shadow>
+          </value>
+          <value name="TARGET_ID">
+            <shadow type="DOMObjectSelector" id=".qJ7TbCq5EK9DELRq%_v">
+              <field name="DOM_OBJECT">CONTAINER</field>
+            </shadow>
+            <block type="text" id="A`jX5+rOMN?1OzOx9fO7">
+              <field name="TEXT">enter_AR_button</field>
+            </block>
+          </value>
+          <next>
+            <block type="setHTMLElemAttribute" id="`H]5?]8cT4ZJh@.C.$2.">
+              <field name="ATTRIBUTE">src</field>
+              <field name="PARENT">FALSE</field>
+              <value name="VALUE">
+                <shadow type="text" id="^NC~|hDVANi|_rQ,kngy">
+                  <field name="TEXT"></field>
+                </shadow>
+                <block type="text" id="!w;df]2$z%[m%H7Of*ok">
+                  <field name="TEXT">media/enter_AR_button.png</field>
+                </block>
+              </value>
+              <value name="ID">
+                <shadow type="text" id="((AY*6U/bw_$fbo~lMyT">
+                  <field name="TEXT">enter_AR_img</field>
+                </shadow>
+              </value>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="38.79999389648435" viewport-y="399.40000915527344" viewport-w="353.6" viewport-h="361" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
